@@ -49,8 +49,9 @@ class Admin
     }
 
     public function assets() {
-        wp_enqueue_style($this->plugin_slug, plugin_dir_url(__FILE__).'css/plugin-name-admin.css', [], $this->version);
-        wp_enqueue_script($this->plugin_slug, plugin_dir_url(__FILE__).'js/plugin-name-admin.js', ['jquery'], $this->version, true);
+        $path = plugin_dir_path(dirname(__FILE__));
+        wp_enqueue_style($this->plugin_slug, plugin_dir_url(__FILE__).'css/gs-wp-admin.css', [], $this->version);
+        wp_enqueue_script($this->plugin_slug, $path.'gs-wp-admin.js', ['jquery'], $this->version, true);
     }
 
     public function register_settings() {

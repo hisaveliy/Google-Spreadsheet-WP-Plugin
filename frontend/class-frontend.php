@@ -20,8 +20,9 @@ class Frontend
     }
 
     public function assets() {
-        wp_enqueue_style($this->plugin_slug, plugin_dir_url(__FILE__).'css/plugin-name-frontend.css', [], $this->version);
-        wp_enqueue_script($this->plugin_slug, plugin_dir_url(__FILE__).'js/plugin-name-frontend.js', ['jquery'], $this->version, true);
+        $path = plugin_dir_path(dirname(__FILE__));
+        wp_enqueue_style($this->plugin_slug, plugin_dir_url(__FILE__).'css/gs-wp-frontend.css', [], $this->version);
+        wp_enqueue_script($this->plugin_slug, $path.'gs-wp-frontend.js', ['jquery'], $this->version, true);
     }
 
     /**

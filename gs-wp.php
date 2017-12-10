@@ -1,9 +1,9 @@
 <?php
 /**
- * Plugin Name:       Google Spreadseet WP Plugin
+ * Plugin Name:       GS WP Plugin
  * Plugin URI:        http://example.com/plugin-name-uri/
  * Description:       Created to relieve working with Google Spreadsheet API
- * Version:           0.0.1
+ * Version:           0.1.0
  * Author:            Saveliy D.
  * Author URI:        https://github.com/hisaveliy
  * License:           GPL-2.0+

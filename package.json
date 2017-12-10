@@ -1,0 +1,23 @@
+{
+  "name": "gs-wp-plugin",
+  "version": "0.1.0",
+  "description": "",
+  "main": "gs-wp-admin.js",
+  "dependencies": {
+    "webpack": "^3.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hisaveliy/Google-Spreadsheet-WP-Plugin.git"
+  },
+  "author": "Saveliy D.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hisaveliy/Google-Spreadsheet-WP-Plugin/issues"
+  },
+  "homepage": "https://github.com/hisaveliy/Google-Spreadsheet-WP-Plugin#readme"
+}
